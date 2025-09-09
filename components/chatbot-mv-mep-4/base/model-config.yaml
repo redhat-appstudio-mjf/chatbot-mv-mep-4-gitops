@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: chatbot-mv-mep-4-model-config
 data:
-  MODEL_ENDPOINT: "http://granite-31-8b-lab-v1-140-version-1-predictor.rolling-demo-ns.svc.cluster.local"
+  MODEL_ENDPOINT: "http://granite-31-8b-lab-v1-140-version-1-predictor.rolling-demo-ns.svc.cluster.local:8080"
   MODEL_NAME: "granite-31-8b-lab-v1-140-version-1"
