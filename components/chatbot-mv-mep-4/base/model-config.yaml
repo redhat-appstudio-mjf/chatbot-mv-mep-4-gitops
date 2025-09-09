@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: chatbot-mv-mep-4-model-config
 data:
-  MODEL_ENDPOINT: ""
+  MODEL_ENDPOINT: "https://granite-31-8b-lab-v1-140-version-1-rolling-demo-ns.apps.mfaisal-sep9.devcluster.openshift.com"
   MODEL_NAME: "granite-31-8b-lab-v1-140-version-1"
